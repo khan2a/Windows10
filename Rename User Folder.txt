@@ -1,0 +1,9 @@
+cmd Admininstrator > net user Administrator /active:yes
+logout and login as Administrator
+Rename C:\Users\<old_name> to <new_name>
+regedit > Hkey_local_machine/software/microsoft/windows NT/currentversion/profilelist/<profile name>/profileimagepath
+Rename C:\Users\<old_name> to <new_name>
+cmd Administrator > netplwiz
+change username
+signout and login to old account
+cmd Admininstrator > net user Administrator /active:no
